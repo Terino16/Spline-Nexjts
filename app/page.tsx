@@ -17,13 +17,13 @@ export default function Home() {
 
 
 
-      <div className="w-full  flex flex-col items-center justify-center max-w-4xl mt-24 space-y-4">
+      <div className="w-full  flex flex-col items-center justify-center max-w-4xl lg:mt-28 space-y-4">
         <div className=" inline-flex items-center rounded-full border-[0.2px] border-zinc-100  px-4 py-1.5">
           <span className="text-sm text-purple-200 font-sans">Build with Love by mvpexperience.agency ❤️</span>
         </div>
 
         <h1
-          className={`font-sans  text-4xl font-normal tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl`}
+          className={`font-sans  text-4xl font-normal tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-8xl`}
         >
           Hey Guys, Did I <span className='text-purple-400'>Cook ?</span> 
         </h1>
@@ -36,8 +36,9 @@ export default function Home() {
       </div>
 
       <div className='absolute bottom-0  '>
-        <Spline
-          scene="https://prod.spline.design/5irQ3UVd8EW3k9uM/scene.splinecode" />
+      <Spline
+        scene="https://prod.spline.design/5irQ3UVd8EW3k9uM/scene.splinecode" 
+      />
       </div>
     </main>
 
