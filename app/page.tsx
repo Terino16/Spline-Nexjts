@@ -1,6 +1,6 @@
 
 import Spline from '@splinetool/react-spline/next';
-import Link from 'next/link';
+
 
 
 
